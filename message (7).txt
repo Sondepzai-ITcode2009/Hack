@@ -120,7 +120,7 @@ spawn(function()
     wait(3)
     local sea = World1 and "Biển 1" or World2 and "Biển 2" or World3 and "Biển 3" or "Không xác định"
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Bear Hub",
+        Title = "Sơn hub",
         Text = "Đang chạy ở " .. sea,
         Duration = 3
     })
@@ -137,7 +137,7 @@ if Update:LoadAnimation() then
 	Update:Loaded();
 end;
 local Library = Update:Window({
-	SubTitle = "by Quang Huy",
+	SubTitle = "by Son",
 	Size = UDim2.new(0, 450, 0, 300),
 	TabWidth = 140
 });
@@ -12132,4 +12132,5 @@ for _, v in pairs(resultNormal) do
 		ServTab:Label(tostring(NormalFruitInfo));
 	end;
 end;
+
 print("Script Loaded!");
