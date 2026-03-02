@@ -120,7 +120,7 @@ spawn(function()
     wait(3)
     local sea = World1 and "Biển 1" or World2 and "Biển 2" or World3 and "Biển 3" or "Không xác định"
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Sơn hub",
+        Title = "Son dz",
         Text = "Đang chạy ở " .. sea,
         Duration = 3
     })
@@ -12134,3 +12134,4 @@ for _, v in pairs(resultNormal) do
 end;
 
 print("Script Loaded!");
+
