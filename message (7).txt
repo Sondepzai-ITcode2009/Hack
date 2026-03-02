@@ -1,5 +1,5 @@
 -- local function scary()
---     warn("❌ This script must only be executed from the offical Bear hud loader")
+--     warn("❌ This script must only be executed from the offical Son dz loader")
 --         return
 --     end
 
@@ -137,7 +137,7 @@ if Update:LoadAnimation() then
 	Update:Loaded();
 end;
 local Library = Update:Window({
-	SubTitle = "by Son",
+	SubTitle = "by Sondz🥰",
 	Size = UDim2.new(0, 450, 0, 300),
 	TabWidth = 140
 });
@@ -12134,4 +12134,5 @@ for _, v in pairs(resultNormal) do
 end;
 
 print("Script Loaded!");
+
 
